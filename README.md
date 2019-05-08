@@ -1,4 +1,4 @@
-# JavaScript Practice Exercies
+# JavaScript Practice Exercises
 Go through all these tasks and complete them using JS. Go through them in order as they are intended to get hearder as you go on.
 
 The Tasks should utlize all of the JS methods we have looked at so far, so you might need to go back and have a look at what we have done in the earlier classes. There shouldn't be anything new needed to complete these tasks
