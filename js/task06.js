@@ -1,10 +1,1 @@
-// Create an script that lists everyone in the class from a prompt, 1 prompt per name
-var numberOfStudents = parseInt(prompt("How many students are there in the class"));
-console.log(numberOfStudents);
-
-var list = document.getElementById('studentsNames');
-
-for (var i = 0; i < numberOfStudents; i++) {
-    var name = prompt('what is student #'+(i+1)+' name');
-    list.innerHTML += '<li>'+name+'</li>';
-}
+// Create an script that asks you to list 10 celebrities with 1 prompt per name. You only need to add names to the list, you don't need to edit or remove them. HTML is required for this one and a ul element with the id of `celebrityNames` has been provided for you. The prompt should keep asking for names until 10 names have been entered without you having to press the button multiple times

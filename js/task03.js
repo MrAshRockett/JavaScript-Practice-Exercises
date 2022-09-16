@@ -1,6 +1,1 @@
-// Create a to do list from a prompt
-
-function addToList(){
-    var item = prompt("Add an item to the list");
-    document.getElementById('toDoList').innerHTML += '<li>'+item+'</li>';
-};
+// Create a to do list from a prompt. You only need to add items to the list, you don't need to edit or remove them. HTML is required for this one and a ul element with the id of `toDoList` has been provided for you. A button with the id of `toDoListButton` has also been provided for you. You can use this button to add items to the list.
