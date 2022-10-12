@@ -1,5 +1,4 @@
 # JavaScript Practice Exercises
-
 Go through all these tasks and complete them using JS. Go through them in order as they are intended to get harder as you go on.
 
 These exercise are designed to be ran within the browser console. You can open the console by pressing `F12` and then clicking on the `Console` tab. Majority of the tasks can be done just in the console but there is some exercise that may require you to edit the html file. Majority of the the html code has been provided for you but you may need to add some.
