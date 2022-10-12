@@ -1,25 +1,16 @@
 // Create an script which ask you your age to see if someone is old enough to by alcohol
+let age = parseInt(prompt('What is your age?'))
 
-function ageAppropriateDrinks(age) {
-  if (age < 18) {
-    return prompt('You are not old enough for this product.');
+function ageAppropriateDrinks() {
+
+  if (age >= 18) {
+      console.log('Old enough')
+      return alert('Enjoy your drink.')
   } else {
-    return prompt('Enjoy your drink.');
+      console.log('Not old enough')
+      return alert('You are not old enough for this product.')
   }
 }
 
 ageAppropriateDrinks()
-// Create an script which checks to see if someone is old enough to by alcohol
-checkAge()
-
-function checkAge() {
-    let age = 55
-
-    if (age <= 18) {
-        console.log("Sorry you are not old enough for this product.")
-    }
-    else {
-        console.log("Enjoy your beverages!");
-    }
-}
 
