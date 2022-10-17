@@ -9,4 +9,4 @@ const calculateAge = (birthday) => {
   const ageDate = new Date(ageDifMs);
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
-console.log(calculateAge('1994-02-16'))
+console.log(calculateAge('1993-11-15'))
